@@ -1,8 +1,13 @@
 import React from 'react'
 
-const Button = () => {
+const Button = (props) => {
+    // destruct arr {name, age, arr}
+    // console.log(props);
   return (
-    <div>Button</div>
+    <>
+    <button >{props.arr[2]}</button>
+    <button onClick={props.func}>Click</button>
+    </>
   )
 }
 
