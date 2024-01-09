@@ -2,7 +2,7 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className="text-center text-[2rem]">App</div>
   )
 }
 
