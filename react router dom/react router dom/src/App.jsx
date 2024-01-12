@@ -1,8 +1,9 @@
 import React from 'react'
+import Routers from './config/router-config/Routes'
 
 const App = () => {
   return (
-    <div className="text-center text-[2rem]">App</div>
+    <Routers/>
   )
 }
 
