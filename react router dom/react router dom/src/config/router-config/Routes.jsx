@@ -4,6 +4,7 @@ import Home from "../../screens/home/Home";
 import About from "../../screens/about/About";
 import Contact from "../../screens/contact/Contact";
 import Product from "../../screens/product/Product";
+import SingleProduct from "../../screens/single-product/SingleProduct";
 import Nav from "../../components/Nav";
 
 const Routers = () => {
@@ -14,7 +15,8 @@ const Routers = () => {
         <Route path='Home' element={<Home/>} />
         <Route path='About' element={<About/>} />
         <Route path='Contact' element={<Contact/>} />
-        <Route path='Product/:id' element={<Product/>} />
+        <Route path='Product' element={<Product/>} />
+        <Route path='SingleProduct/:id' element={<SingleProduct/>} />
       </Routes>
     </BrowserRouter>
   );
